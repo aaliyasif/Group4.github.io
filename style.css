@@ -1,0 +1,59 @@
+body{
+  margin: 0px;
+  background-color: black;
+}
+
+.navbar ul{
+  list-style: none;
+  background-color: #fdaa2aff;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  padding: 12px 50px;
+  display: block;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar li{
+  float: left;
+}
+
+h2{
+  color: black;
+  background-color: #fdaa2aff;
+  font-family: monospace;
+  padding: 15px 1px;
+  text-align: center;
+  width: 200;
+}
+
+.navbar a:hover{
+  background-color: black;
+  color: #fdaa2aff;
+}
+
+h3{
+  font-family: monospace;
+  color: #fdaa2aff;
+}
+
+p{
+  font-family: monospace;
+  color: #fdaa2aff;
+}
+
+.main{
+  
+}
+
+.info{
+  
+}
