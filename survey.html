@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio Survey</title>
+        <link href="survey_style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+    
+        <h1>Please Fill This Form</h1>
+        
+        <div id="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" class="contact">Feedback</a></li>
+            </ul>
+		</div>
+        <br><br><br>
+        <form action="#" method="post" id="surveyForm">
+            <label>First Name: <input type="text" name="firstName" required></label>
+            <label>Last Name: <input type="text" name="lastName" required></label>
+            <label>Email: <input type="email" name="email" required></label>
+            <label>Age: <input type="number" name="age" min="0" required></label>
+            
+            <label>Gender:
+            <select name="gender" required>
+                <option value="" disabled selected>-Select your gender-</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            </label>
+            
+            <label class="rating-label">Website Rating:
+            <input type="radio" name="rating" value="1" required> 1
+            <input type="radio" name="rating" value="2"> 2
+            <input type="radio" name="rating" value="3"> 3
+            <input type="radio" name="rating" value="4"> 4
+            <input type="radio" name="rating" value="5"> 5
+            </label>
+            
+            <label>Feedback or Comments: <textarea name="feedback" rows="4"></textarea>
+            
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,103 @@
+#navigation ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+}
+
+#navigation ul li {
+    float: left;
+    width: 14%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navigation ul li a {
+    display: block;
+    background-color: #FF9B42;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#navigation .contact {
+    background-color: #6B3200;    
+}
+
+#navigation ul li a:hover {
+    background-color: #FCC189;
+    text-decoration: none;
+	border-radius: 10px;
+}
+
+body {
+      background-color: black;
+      color: white;
+      font-family: monospace;
+      margin: 0;
+      padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #472100;
+    background-color: #FF881E;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+      max-width: 600px;
+      margin: 0 auto;
+}
+
+label {
+      display: block;
+      margin-bottom: 10px;
+}
+    
+input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+}
+
+.rating-label {
+      display: flex;
+      align-items: center;
+}
+
+.rating-label input {
+      margin-right: -15px;
+}
+
+button {
+      background-color: #B25400;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 5px;
+}
+
+button[type="reset"] {
+      background-color: #B25400;
+}
+
+body{
+    font-family: monospace;
+    background-color: black;
+}
